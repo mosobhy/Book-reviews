@@ -16,8 +16,7 @@ Web Programming with Python and JavaScript
 6. reveiw route and how you are gonna talk to the book_api and cover_api.
 
 
-7. all the enhanciments that's requeired is to protect against the sql injections in index route
+7. all the enhancements that's required is to protect against the sql injections in index route
     it requires to be redesigned in such a way that detect the input pattern and use the convenient sql constraint.. using regex or whatever
 
-
-
+8. designed the API at (/api/$isbn)
