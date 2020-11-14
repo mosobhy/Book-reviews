@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Search for Books
+{% endblock %}
+
+{% block main %}
+
+<form action='/' method="post">
+    <input class="form-control form-control-lg" type="text" name='book' placeholder="Search by ISBN, Title, Author">
+    <button style="margine-top: 1em;" type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<!-- here to access the search results and dispaly them in unordered list -->
+<ul style="margin-top: 1em;">
+    {% for book in resulted_books %}
+        <li><a href="/reveiws/{{ book.isbn }}">{{ book.isbn }}</a>, {{ book.title }}, {{book.author }}, {{ book.pulication_year }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

@@ -1,0 +1,103 @@
+nav, main, footer
+{
+    font-family: El Messiri;
+}
+
+
+nav .navbar-brand
+{
+    padding-right: 16%;
+    font-size: 30px;
+    color: #007bff;
+
+}
+
+
+nav .navbar-text
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main
+{
+    background-color: azure;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+    overflow-y: inherit;
+    /* center contents */
+    text-align: center;
+}
+
+.container
+{
+    width: 950px;
+    margin: auto;
+}
+
+
+
+.aboutme
+{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.aboutme .image
+{
+    float: left;
+    width: 40%;
+}
+
+.aboutme .image img
+{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+.aboutme .info
+{
+    float: left;
+    width: 60%;
+}
+.aboutme .info h4
+{
+    margin: 0.5em 1em;
+}
+
+.aboutme .info .header {
+    margin-top: 1em;
+    font-weight: bolder;
+}
+
+.aboutme .info .inline {
+    display: inline-block;
+}
+
+.aboutme .info .form-group
+{
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+
+.aboutme .reveiw
+{
+    margin: 2em;
+}
+
+/* end the about me section */
